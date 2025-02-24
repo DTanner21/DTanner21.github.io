@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <title>The Mysterious Key</title>
+         <style>
+            .diamond-border {
+                position: relative;
+                display: inline-block;
+                width: 400px; 
+                height: 400px; 
+                background-color: red;
+                transform: rotate(45deg); 
+                border: 5px solid red; 
+                padding: 20px; 
+                box-sizing: border-box;
+            }
+            .diamond-border img {
+                transform: rotate(-45deg); 
+                width: 100%;
+                height: 100%;
+            }
+        </style>
+    </head>
+    <body>
+        <div
+            style="
+                width: 1600px;
+                height: 900px;
+                background-color: black;
+                margin-left: auto;
+                margin-right: auto;
+                position: relative;
+            ">
+            <h1 style="position: absolute; top: 680px; left: 650px; z-index: 3; color: aliceblue; font-size: xx-large"> THE MYSTERIOUS KEY</h1>
+            <div style="position: absolute; bottom: 200px; left: 500px;">
+                <div class="diamond-border">
+                    <img src="KeyImage.png" alt="keytitlepage" title="Let's Begin Our Adventure">
+                </div>
+            </div>
+            <a
+                href="Page1.html"
+                style="
+                    position: absolute;
+                    bottom: 20px;
+                    right: 15px;
+                    font-size: 25px;
+                    color: peru;
+                    text-decoration: none;
+                    font-weight: bold;
+                ">
+                Begin Story →
+            </a>
+        </div>
+    </body>
+</html>
